@@ -37,6 +37,6 @@ Dal menu principale è possibile:
 **Struttura del progetto:**
 
 Il codice è organizzato in tre file:
-- `tris_game.py`: logica del gioco (stampa scacchiera, controllo vittoria, gestione turni)
+- `tris.py`: logica del gioco (stampa scacchiera, controllo vittoria, gestione turni)
 - `tris_db_config.py`: connessione al database e funzioni per interagire con esso
 - `main.py`: menu principale e interfaccia utente
