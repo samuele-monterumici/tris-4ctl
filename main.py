@@ -74,7 +74,7 @@ def main():
                 print(f"\n{nickname1} gioca con X")
                 print(f"{nickname2} gioca con O")
                 
-                input("\nPremi INVIO per iniziare la partita...")
+                input("\nPremi INVIO per iniziare la partita")
                 
                 vincitore = gioca_tris(nickname1, nickname2)
                 
@@ -86,7 +86,7 @@ def main():
                 else:
                     print(f"\nPartita vinta da {vincitore} e salvata nel database!")
                 
-                input("\nPremi INVIO per tornare al menu...")
+                input("\nPremi INVIO per tornare al menu")
 
             elif scelta == "2":
                 print("   TOP 5 GIOCATORI PER VITTORIE")
@@ -99,7 +99,7 @@ def main():
                 else:
                     print("Nessun giocatore trovato.")
                 
-                input("\nPremi INVIO per continuare...")
+                input("\nPremi INVIO per continuare")
             
             elif scelta == "3":
                 print("     STATISTICHE GIOCATORE")
@@ -117,10 +117,10 @@ def main():
                 else:
                     print(f"Giocatore '{nickname}' non trovato.")
                 
-                input("\nPremi INVIO per continuare...")
+                input("\nPremi INVIO per continuare")
             
             elif scelta == "4":
-                print("\nGrazie per aver giocato! Arrivederci!")
+                print("\nGrazie per aver giocato!")
                 break
             
             else:
