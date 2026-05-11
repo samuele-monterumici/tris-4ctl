@@ -6,8 +6,8 @@ from datetime import datetime
 # CONFIGURAZIONE CONNESSIONE 
 DB_CONFIG = {
     "host": "127.0.0.1",
-    "user": "4CTL_monte.s.141208",   # <-- MODIFICARE
-    "password": "Tpsit2026",   # <-- MODIFICARE
+    "user": "4CTL_monte.s.141208", 
+    "password": "Tpsit2026", 
     "database": "4CTL_monte.s.141208",
     "port": 3307,
     "cursorclass": pymysql.cursors.Cursor,
